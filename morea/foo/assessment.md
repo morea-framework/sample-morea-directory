@@ -1,9 +1,18 @@
-<p>Assessed ability to construct foo instances.</p>
+---
+title: "Assessment of Foo construction skill"
+published: true
+morea_id: assessment1
+morea_type: assessment
+morea_sort_order: 1
+morea_outcomes_assessed:
+  - outcome1
+  - outcome2
+---
 
-<link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css" />
+Assessed ability to construct foo instances.
 
+<link rel="stylesheet" href="http://cdn.oesmith.co.uk/morris-0.4.3.min.css">
 <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-
 <script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
 
 <div class="well">
@@ -26,4 +35,3 @@ Morris.Bar({
   labels: ['Students']
 });
 </script>
-
